@@ -291,3 +291,24 @@ button{
 .errorMsg{
     border: 1px solid #d33c41!important;
 }
+
+
+@media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    /* You can customize the styles based on your requirements */
+    .modal {
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .modal-row.grid-row {
+        display: block;
+    }
+
+    .modal-col {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Add more responsive styles as needed */
+}

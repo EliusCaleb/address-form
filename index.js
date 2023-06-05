@@ -89,7 +89,7 @@ class Address{
 }
 
 // UI class
-// UI class
+
 class UI{
     static showAddressList(){
         const addresses = Address.getAddresses();
